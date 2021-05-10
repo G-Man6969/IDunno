@@ -2,20 +2,18 @@
   <div id="app">
     <Nav></Nav>
     <img alt="Vue logo" src="./assets/logo.png">
-    <Movies></Movies>
+    
    
   </div>
 </template>
 
 <script>
 import Nav from './components/Nav.vue'
-import Movies from './components/Movies.vue'
 
 export default {
   name: 'App',
   components: {
-   Nav,
-   Movies
+   Nav
   }
 }
 </script>
